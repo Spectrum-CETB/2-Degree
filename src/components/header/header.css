@@ -58,6 +58,25 @@ a{
     border-radius: 50%;
 }
 
+.logo {
+
+    width: 50px;
+    height: 50px;
+    background-color: #eef;
+    background-image: linear-gradient(to right, rgb(247, 95, 95) , rgb(108, 0, 196));
+    border-radius: 50%;
+
+}
+
+.logo p{
+
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-left: 17px;
+    color: #eee;
+}
+
 .navbar-header .navbar-header-body .logo p{
     /* position: absolute; */
     font-weight: 800;

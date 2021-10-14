@@ -22,12 +22,20 @@ function Header() {
     return (
         <Navbar collapseOnSelect bg="light" expand="md">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse  id="responsive-navbar-nav">
 
-                    <Nav className="justify-content-end">
-                        
+                <Navbar.Brand className="logo" href="#home">
+                    
+                    <p>2&#176;</p>
+                    
+                
+                
+                
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
+
+                    <Nav>
+
                         <Nav.Item>
                             <Nav.Link href="#home">Home</Nav.Link>
                         </Nav.Item>
