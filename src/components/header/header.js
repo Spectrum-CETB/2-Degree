@@ -37,10 +37,10 @@ function Header() {
                     <Nav>
 
                         <Nav.Item>
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link  className="active" href="#home">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#impact">Impact</Nav.Link>
+                            <Nav.Link  href="#impact">Impact</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href="#motive">Motive</Nav.Link>
@@ -49,10 +49,15 @@ function Header() {
                             <Nav.Link href="#solution">Achieve</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Pledge</Nav.Link>
+                                <button data-aos="fade-left" data-aos-delay="900">
+                                    <a href="#pledge" className="nav-link" >PLEDGE</a>
+                                </button>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Sign In</Nav.Link>
+                           
+                            <button onClick={signInWithFirebase} data-aos="fade-left" data-aos-delay="1000">
+                                <a href="" className="nav-link" >SIGN-IN</a>
+                            </button>
                         </Nav.Item>
                         
                     </Nav>  
