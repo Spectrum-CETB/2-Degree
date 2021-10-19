@@ -1,21 +1,35 @@
 button{
     border: none;
     background: #2c2b2b;
-    width: 250px;
+    width: 80px;
+    height: 35px;
     padding: 10px 0px;
     font-weight: 600;
     color: #eee;
     letter-spacing: 0.1rem;
     font-size: 15px;
-    transition: all 0.3s;
+    transition: all 0.6s;
 }
 
-button:hover{
+.navbar-nav .nav-item button  a.nav-link {
+
+    color:#eee;
+    font-size: 13px;
+    border: none;
+    text-align: center;
+    width: max-content;
+    
+
+}
+
+/* button:hover{
     cursor: pointer;
     border: 2px solid rgb(223, 22, 72) !important;
     background: rgb(226, 20, 82);
     color: rgb(243, 236, 238);
-}
+} */
+
+
 
 
 a{
@@ -24,24 +38,101 @@ a{
 
 
 
-.active,  .header .header-body .nav-items a:hover{
+/* .active,  .navbar-header .navbar-header-body .nav-items a:hover{
     color: rgb(216, 10, 61) !important;
+    font-weight: 500;
+    
+} */
+
+
+.active, .navbar .navbar-nav .nav-item a:hover{
+
+    color: rgb(216, 10, 61) ;
     font-weight: 500;
     
 }
 
-.header{
+
+.navbar {
+
+    height:80px;
+}
+
+.navbar-nav{
+
+    align-items: center;
+    gap:10px;
+    /* width: max-content; */
+}
+
+.navbar-nav .nav-item{
+
+    /* padding:10px; */
+
+    
+
+}
+.navbar-nav .nav-item button {
+
+    width: 100px ; 
+    padding: 0 0 0 13px;
+    background-color: #2b2b2b; 
+    
+}
+.navbar-nav .nav-item  button:hover{
+    
+    cursor: pointer;
+    border: 2px solid rgb(223, 22, 72) ;
+    background: rgb(226, 20, 82);
+    color: rgb(243, 236, 238);
+    
+
+
+}
+.navbar-nav .nav-item button a.nav-link:hover{
+    padding:0px !important;
+    color:rgb(226,20,82);
+}  
+.navbar-expand.md .navbar-nav .nav-link:nth-of-type(5n){
+   
+    padding:0px;
+
+} 
+
+
+.navbar .navbar-nav .nav-item button a:hover{
+    
+    padding:0px !important;
+    color:rgb(226,20,82);
+
+} 
+
+
+
+.navbar .navbar-nav .nav-item a{
+    color: rgb(31, 31, 32);
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+
+
+.navbar-header{
     font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 300;
     margin-bottom: 20px;
     background: rgb(255, 255, 255);
     /* box-shadow: 0px 0px 7px 0px #060708; */
 }
 
-.header .header-body{
+.navbar-header .navbar-header-body{
     height: 60px;
     display: flex;
     width: 90%;
@@ -50,7 +141,7 @@ a{
     justify-content: space-between;
 }
 
-.header .header-body .logo{
+.navbar-header .navbar-header-body .logo{
     width: 50px;
     height: 50px;
     background-color: #eef;
@@ -58,7 +149,26 @@ a{
     border-radius: 50%;
 }
 
-.header .header-body .logo p{
+.logo {
+
+    width: 50px;
+    height: 50px;
+    background-color: #eef;
+    background-image: linear-gradient(to right, rgb(247, 95, 95) , rgb(108, 0, 196));
+    border-radius: 50%;
+
+}
+
+.logo p{
+
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-left: 17px;
+    color: #eee;
+}
+
+.navbar-header .navbar-header-body .logo p{
     /* position: absolute; */
     font-weight: 800;
     font-size: 22px;
@@ -67,36 +177,41 @@ a{
     color: #eee;
 }
 
-.header .header-body .nav-items{
+.navbar-header .navbar-header-body .nav-items{
     width: 38%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header .header-body .nav-items a{
+.navbar-header .navbar-header-body .nav-items a{
     color: rgb(31, 31, 32);
     font-size: 15px;
     letter-spacing: 0.05rem;
     transition: 600ms ease-in-out;
     cursor: pointer;
+    
 }
 
-.header .header-body .nav-items  button{
+.navbar-header .navbar-header-body .nav-items  button{
     width: 100px;
+    
+    justify-content: space-between;
+    
 }
 
-.header .header-body .nav-items  button a{
+.navbar-header .navbar-header-body .nav-items  button a{
     color: #eee;
     font-weight: 500;
     font-size: 13px;
+
 }
 
-.header .hr{
+.navbar-header .hr{
     width: 90%;
 }
 
-.header .hr hr{
+.navbar-header .hr hr{
     width: 100%;
     margin-left: 4%;
     border: none;
