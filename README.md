@@ -10,9 +10,9 @@
 
 #### "Earth provides enough to satisfy every man's need but not every man's greed."
 
-* __Global warming__ is the increase of average world temperature as a result of what is known as the __greenhouse effect__. Certain __gases__ in the __atmosphere__ act like glass in a greenhouse, allowing sunlight through to __heat the earth__'s surface but trapping the heat as it radiates back into space.
+* __Global warming__ is the increase of average world temperature as a result of what is known as the __greenhouse effect__. Certain __gases__ in the __atmosphere__ act like glass in a greenhouse, allowing sunlight to __heat the earth__'s surface but trapping the heat as it radiates back into space.
 * It's being __predicted__ that by the next century __Earth__ will see a rise of nearly __5&#176;C__ in the global __temperature__ due to __Global warming__.
-* __Team 2&#176;__ believes this rise in temperature can be __restrained__ to __2&#176;C__ and aims to make it a __reality__ with this project .
+* __Team 2&#176;__ believes this temperature rise can be __restrained__ to __2&#176;C__ and aims to make it a __reality__ with this project.
 
 ## 🌟 Problem Statement
 
@@ -24,9 +24,9 @@
 
     * It is caused by increased concentrations of greenhouse gases in the atmosphere, mainly from human activities such as burning fossil fuels, deforestation, industrial activities and farming.
 
-* __How big is the Global Warming?__
+* __How big is Global Warming?__
 
-    * Climate change is already happening: temperatures are rising, drought and wild fires are starting to occur more frequently, rainfall patterns are shifting, glaciers and snow are melting and the global mean sea level is rising.
+    * Climate change is already happening: temperatures are rising, drought and wildfires are starting to occur more frequently, rainfall patterns are shifting, glaciers and snow are melting and the global mean sea level is rising.
 
 
 ##  🌟 Problem Solution
@@ -66,7 +66,7 @@
 
 * We also have a User Dashboard which can be accessed on authentication (Firebase Google Auth) which is user personalized and it also has a Green Chat feature.
  
-* Green Chat is a Exclusive Feature where users can discuss with each other various solution to the problem and come up with the next big change to help us make this initiative a great success.
+* Green Chat is an Exclusive Feature where users can discuss with each other various solutions to the problem and come up with the next big change to help us make this initiative a great success.
 
 ##  🌟 Simulation-GIF
 ![En-ROADS Simulation](./src/assests/simulation.gif)
@@ -88,7 +88,7 @@
 
 ## ✨ Hall Of Contributors
 
-Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀
+Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -97,5 +97,4 @@ Thanks goes to these Wonderful People. Contributions of any kind are welcome!�
 <a href="https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode/contributors">
   <img src="https://contrib.rocks/image?repo=The-CODE-Plus-Plus-Community/2-Degree-HackACode" />
 </a>
-
 
